@@ -645,12 +645,11 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .practice-extra .fanjian-visuals .fanjian-poster-link .case-poster{width:100%;max-width:100%;height:auto;margin:0}
 .fanjian-poster-link:focus-visible{outline:3px solid #2348ee;outline-offset:5px;border-radius:8px}
 
-/* Prominent poster call to action */
-.practice-extra .fanjian-cta{margin:14px 0 16px;font-size:18px;font-weight:700;line-height:1.6}
-.fanjian-cta a,.fanjian-click-hint{color:#b8460b;text-decoration:none}
-.fanjian-cta a:hover,.fanjian-click-hint:hover{color:#8c3205;text-decoration:underline;text-underline-offset:4px}
+/* FanJian poster side guide */
 .practice-extra .fanjian-visuals{align-items:center;flex-wrap:wrap}
-.fanjian-click-hint{display:flex;align-items:center;gap:10px;font-size:16px;font-weight:700;line-height:1.7}
-.fanjian-hint-arrow{font-size:38px;line-height:1}
-.fanjian-cta a:focus-visible,.fanjian-click-hint:focus-visible{outline:3px solid #2348ee;outline-offset:5px}
-@media(max-width:600px){.practice-extra .fanjian-cta{font-size:16px}.fanjian-poster-link{flex-basis:170px;width:170px}.fanjian-click-hint{font-size:14px;gap:6px}.fanjian-hint-arrow{font-size:30px}}
+.practice-extra .fanjian-visuals .fanjian-click-hint{display:flex;align-items:center;gap:12px;color:#b8460b;font-size:22px;font-weight:800;line-height:1.65;text-decoration:none}
+.practice-extra .fanjian-click-hint>span{color:inherit;font-size:inherit;font-weight:inherit;line-height:inherit}
+.practice-extra .fanjian-click-hint .fanjian-hint-arrow{font-size:44px;line-height:1}
+.practice-extra .fanjian-click-hint:hover{color:#8c3205;text-decoration:underline;text-underline-offset:4px}
+.fanjian-click-hint:focus-visible{outline:3px solid #2348ee;outline-offset:5px}
+@media(max-width:600px){.fanjian-poster-link{flex-basis:170px;width:170px}.practice-extra .fanjian-visuals .fanjian-click-hint{font-size:18px;gap:8px}.practice-extra .fanjian-click-hint .fanjian-hint-arrow{font-size:36px}}
