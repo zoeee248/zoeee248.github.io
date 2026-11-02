@@ -639,3 +639,8 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .premiere-project p,.premiere-project li,.premiere-intro{font-size:12px;line-height:1.8}
 .premiere-grid:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
 }
+
+/* Clickable FanJian introduction poster */
+.fanjian-poster-link{display:block;flex:0 1 220px;width:220px;max-width:100%}
+.practice-extra .fanjian-visuals .fanjian-poster-link .case-poster{width:100%;max-width:100%;height:auto;margin:0}
+.fanjian-poster-link:focus-visible{outline:3px solid #2348ee;outline-offset:5px;border-radius:8px}
